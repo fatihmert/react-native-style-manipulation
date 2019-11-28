@@ -6,23 +6,23 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fatihmert/react-native-style-manipulation.git"
+  },
   "keywords": [
-    "react",
-    "native",
-    "style",
-    "react",
-    "native",
-    "style",
-    "helper",
-    "react",
-    "native",
-    "style",
-    "manipulation",
-    "react",
-    "native",
-    "style",
-    "manipulator"
+    "react native style",
+    "react native style helper",
+    "react native style manipulation",
+    "react native style manipulator"
   ],
-  "author": "Fatih Mert Doğancan",
-  "license": "ISC"
+  "author": "Fatih Mert Doğancan <fmdogancan95@gmail.com> (https://fatihmertdogancan.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fatihmert/react-native-style-manipulation/issues"
+  },
+  "homepage": "https://github.com/fatihmert/react-native-style-manipulation#readme",
+  "peerDependencies": {
+    "react-native": ">=0.60.0"
+  }
 }
