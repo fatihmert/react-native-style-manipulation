@@ -1,0 +1,28 @@
+{
+  "name": "react-native-style-manipulation",
+  "version": "1.0.0",
+  "description": "React Native Style Manipulation (Helper)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "style",
+    "react",
+    "native",
+    "style",
+    "helper",
+    "react",
+    "native",
+    "style",
+    "manipulation",
+    "react",
+    "native",
+    "style",
+    "manipulator"
+  ],
+  "author": "Fatih Mert Doğancan",
+  "license": "ISC"
+}
