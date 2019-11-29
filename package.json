@@ -24,5 +24,8 @@
   "homepage": "https://github.com/fatihmert/react-native-style-manipulation#readme",
   "peerDependencies": {
     "react-native": ">=0.60.0"
+  },
+  "devDependencies": {
+    "chroma-js": "^2.1.0"
   }
 }
