@@ -107,8 +107,8 @@ Style.bradx0                // Border radius cross left top & bottom right remov
 Style.bradxn0               // Border radius cross right top & bottom left remove
 
 // Positions
-Style.posre(val)            // position relative (react native default) 
-Style.posab(val)            // position absolute  
+Style.posre                 // position relative (react native default) 
+Style.posab                 // position absolute  
 
 // Position left/right/top/bottom
 Style.post(val)             // position top     

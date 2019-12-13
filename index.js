@@ -120,7 +120,7 @@ export default {
   tdl: Font.textDecoration('line-through'),
 
   lh: val => Font.lineHeight(val),
-  
+
 
   // Shadow
   shadow: (val, color='#000') => new Shadow(val, color).generate(),
