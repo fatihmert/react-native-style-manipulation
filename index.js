@@ -3,6 +3,9 @@ import Border from './lib/Border';
 import Margin from './lib/Margin';
 import Padding from './lib/Padding';
 
+import Position from './lib/Position';
+import Font from './lib/Font';
+
 import Shadow from './lib/Shadow';
 import TextShadow from './lib/TextShadow';
 
@@ -65,6 +68,59 @@ export default {
   pl: val => Padding.pl(val),
   pr: val => Padding.pr(val),
   pb: val => Padding.pb(val),
+
+  // Positions
+  posre: Position.position('relative'),
+  posab: Position.position('absolute'),
+
+  post: val => Position.top(val),
+  posb: val => Position.bottom(val),
+  posl: val => Position.left(val),
+  posr: val => Position.right(val),
+
+  // Position pushs
+  post0: Position.top(0),
+  posb0: Position.bottom(0),
+  posl0: Position.left(0),
+  posr0: Position.right(0),
+
+  // zIndex
+  z: val => Position.zIndex(val),
+
+  // Fonts
+  tt0: Font.textTransform('none'),
+  ttup: Font.textTransform('uppercase'),
+  ttlow: Font.textTransform('lowercase'),
+  ttcap: Font.textTransform('capitalize'),
+
+  fnorm: Font.fontStyle('normal'),
+  fital: Font.fontStyle('italic'),
+
+  fw: val => Font.fontWeight(val),
+  fwn: Font.fontWeight('normal'),
+  fwb: Font.fontWeight('bold'),
+  fw100: Font.fontWeight("100"),
+  fw200: Font.fontWeight("200"),
+  fw300: Font.fontWeight("300"),
+  fw400: Font.fontWeight("400"),
+  fw500: Font.fontWeight("500"),
+  fw600: Font.fontWeight("600"),
+  fw700: Font.fontWeight("700"),
+  fw800: Font.fontWeight("800"),
+  fw900: Font.fontWeight("900"),
+
+  ta0: Font.textAlign('auto'),
+  tac: Font.textAlign('center'),
+  tal: Font.textAlign('left'),
+  tar: Font.textAlign('right'),
+  taj: Font.textAlign('justify'), //only ios
+
+  td0: Font.textDecoration('none'), // text-decoation: none
+  tdu: Font.textDecoration('underline'),
+  tdl: Font.textDecoration('line-through'),
+
+  lh: val => Font.lineHeight(val),
+  
 
   // Shadow
   shadow: (val, color='#000') => new Shadow(val, color).generate(),

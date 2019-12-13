@@ -105,10 +105,74 @@ Style.bradl0                // Border radius left remove
 Style.bradr0                // Border radius radius remove
 Style.bradx0                // Border radius cross left top & bottom right remove
 Style.bradxn0               // Border radius cross right top & bottom left remove
+
+// Positions
+Style.posre(val)            // position relative (react native default) 
+Style.posab(val)            // position absolute  
+
+// Position left/right/top/bottom
+Style.post(val)             // position top     
+Style.posb(val)             // position bottom 
+Style.posl(val)             // position left 
+Style.posr(val)             // position right 
+
+// Position unsets (pushed side)
+Style.post0                 // position top unset
+Style.posb0                 // position bottom unset
+Style.posl0                 // position left unset
+Style.posr0                 // position right unset
+
+Style.z(val)                // zIndex
+
+// Font
+
+// TextTransforms
+Style.tt0                   // none 
+Style.ttup                  // uppercase
+Style.ttlow                 // lowercase
+Style.ttcap                 // capitalize
+
+// Font style
+Style.fnorm                 // normal
+Style.fital                 // italic
+
+// Font weight
+Style.fw(val)               // set custom or use below vars      
+Style.fwn                   // normal
+Style.fwb                   // bold
+Style.fw100                 // fontWeight: 100
+Style.fw200                 // fontWeight: 200
+Style.fw300                 // fontWeight: 300
+Style.fw400                 // fontWeight: 400
+Style.fw500                 // fontWeight: 500
+Style.fw600                 // fontWeight: 600
+Style.fw700                 // fontWeight: 700
+Style.fw800                 // fontWeight: 800
+Style.fw900                 // fontWeight: 900
+
+// Text align
+Style.ta0                   // auto (unset, rn default)
+Style.tac                   // center
+Style.tal                   // left
+Style.tar                   // right
+Style.taj                   // justify (only ios)
+
+// Text Decoration
+Style.td0                   // none
+Style.tdu                   // underline
+Style.tdl                   // line-through
+
+// Line height
+Style.lh(val)               // line height
 ```
 
 # CHANGELOG
 
+## 1.0.3
+
+ * Added positions & zIndex
+ * Added font/text properties
+ 
 ## 1.0.2
 
  * Added border & border radius
@@ -124,6 +188,7 @@ Style.bradxn0               // Border radius cross right top & bottom left remov
 # TODO
 
 * ~~Borders~~
+* Responsive fontsize
 * Color Manipulations
 * Device detect
 * ..and more
