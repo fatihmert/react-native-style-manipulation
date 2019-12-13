@@ -28,9 +28,7 @@ export default {
   pb: val => Padding.pb(val),
 
   // Shadow
-  shadow: (val, color='#000') => Shadow(val, color).generate(),
-  textShadow: (horizantal=-1, vertical=1, blurRadius=10, color='rgba(0,0,0,.25)') => TextShadow.generate(horizantal, vertical, blurRadius, color),
-  
-
+  shadow: (val, color='#000') => new Shadow(val, color).generate(),
+  textShadow: (horizontal=-1, vertical=1, blurRadius=10, color='rgba(0,0,0,.25)') => TextShadow.generate(horizontal, vertical, blurRadius, color),
 
 };
