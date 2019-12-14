@@ -1,6 +1,6 @@
 {
   "name": "react-native-style-manipulation",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "React Native Style Manipulation (Helper)",
   "main": "index.js",
   "scripts": {
