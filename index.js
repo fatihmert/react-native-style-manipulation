@@ -121,6 +121,16 @@ export default {
 
   lh: val => Font.lineHeight(val),
 
+  // Font size (standart)
+  fs: val => Font.value(val),  // Style.fs(5), Style.fs('1rem')
+
+  // Responsive fontsize
+  fsr: (val, screenHeight=680) => Font.Responsive(val, screenHeight),
+  // Style.fsr('75%')
+  // Style.fsr(25)
+  // Style.fsr(25, 540)
+
+
 
   // Shadow
   shadow: (val, color='#000') => new Shadow(val, color).generate(),

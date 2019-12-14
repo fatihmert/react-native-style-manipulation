@@ -164,9 +164,22 @@ Style.tdl                   // line-through
 
 // Line height
 Style.lh(val)               // line height
+
+// Normal font size             default rem size 16
+Style.fs(val)                   // Style.fs('1.25rem')
+                                // Style.fs(20)
+
+// Responsive font size
+Style.fsr(val, screenHeight)    // Style.fsr('10%')
+                                // Style.fsr(20)    default screenHeight 5" -> 680
+                                // Style.fsr(30, 540) set custom screenHeight
 ```
 
 # CHANGELOG
+
+## 1.0.4
+
+ * Added responsive font-size & normal font size
 
 ## 1.0.3
 
@@ -188,7 +201,7 @@ Style.lh(val)               // line height
 # TODO
 
 * ~~Borders~~
-* Responsive fontsize
+* ~~Responsive fontsize~~
 * Color Manipulations
 * Device detect
 * ..and more
