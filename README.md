@@ -173,9 +173,23 @@ Style.fs(val)                   // Style.fs('1.25rem')
 Style.fsr(val, screenHeight)    // Style.fsr('10%')
                                 // Style.fsr(20)    default screenHeight 5" -> 680
                                 // Style.fsr(30, 540) set custom screenHeight
+                                // Style.fsr(30, 'auto') auto scrren height
+
+// Color manipulations | TinyColor embedded
+// https://github.com/bgrins/TinyColor
+
+Style.color('red').toHexString()                    // #ff0000
+Style.color("#f00").darken().toString()             // #cc0000
+
+
 ```
 
 # CHANGELOG
+
+## 1.0.5
+
+ * Added responsive font-size auto height detect with 'auto' param. 
+ * Added color manipulation by [TinyColor](https://github.com/bgrins/TinyColor)
 
 ## 1.0.4
 
@@ -202,6 +216,6 @@ Style.fsr(val, screenHeight)    // Style.fsr('10%')
 
 * ~~Borders~~
 * ~~Responsive fontsize~~
-* Color Manipulations
+* ~~Color Manipulations~~
 * Device detect
 * ..and more

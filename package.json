@@ -1,6 +1,6 @@
 {
   "name": "react-native-style-manipulation",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "React Native Style Manipulation (Helper)",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "peerDependencies": {
     "react-native": ">=0.60.0"
   },
-  "devDependencies": {
-    "chroma-js": "^2.1.0"
+  "dependencies": {
+    "tinycolor2": "^1.4.1"
   }
 }

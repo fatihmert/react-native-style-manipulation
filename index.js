@@ -9,6 +9,8 @@ import Font from './lib/Font';
 import Shadow from './lib/Shadow';
 import TextShadow from './lib/TextShadow';
 
+import Color from './lib/Color';
+
 export default {
   // b: Border,
   b: (width=1, style='solid', color='#000') => Border.b(width, color, style),
@@ -131,9 +133,10 @@ export default {
   // Style.fsr(25, 540)
 
 
-
   // Shadow
   shadow: (val, color='#000') => new Shadow(val, color).generate(),
   textShadow: (horizontal=-1, vertical=1, blurRadius=10, color='rgba(0,0,0,.25)') => TextShadow.generate(horizontal, vertical, blurRadius, color),
 
+  // Color tinycolor.js
+  color: (...args) => new Color(...args),
 };
